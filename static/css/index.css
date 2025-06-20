@@ -156,19 +156,13 @@ body {
   border-radius: 5px;
 }
 
-.carousel-grid {
+.results-carousel.three-columns {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
-  margin-bottom: 1rem;
 }
 
-.item {
+.results-carousel.three-columns .item {
   width: 100%;
 }
 
-.item video {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-}
