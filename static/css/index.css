@@ -166,7 +166,7 @@ body {
 }
 
 .results-grid .item {
-  aspect-ratio: 16 / 9;
+  aspect-ratio: auto; /* 또는 비디오 원본 비율로 변경 */
   overflow: hidden;
 }
 
