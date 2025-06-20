@@ -163,15 +163,17 @@ body {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+  align-items: start; /* 상단 정렬로 높이 차이 해결 */
 }
 
 .results-grid .item {
-  /* aspect-ratio와 overflow 제거 */
+  width: 100%;
 }
 
 .results-grid .item video {
   width: 100%;
-  height: auto;
+  height: auto; /* 원본 비율 유지 */
   border-radius: 8px;
   display: block;
 }
+
