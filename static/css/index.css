@@ -166,7 +166,6 @@ body {
 }
 
 .results-grid .item {
-  aspect-ratio : auto;
   /* aspect-ratio와 overflow 제거 */
 }
 
