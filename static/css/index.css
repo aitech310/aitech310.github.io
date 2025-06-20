@@ -155,14 +155,12 @@ body {
 #interpolation-image-wrapper img {
   border-radius: 5px;
 }
-
 .results-carousel.three-columns {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  gap: 1rem !important;
 }
 
 .results-carousel.three-columns .item {
-  width: 100%;
+  width: 100% !important;
 }
-
