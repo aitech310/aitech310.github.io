@@ -155,3 +155,20 @@ body {
 #interpolation-image-wrapper img {
   border-radius: 5px;
 }
+
+.carousel-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.item {
+  width: 100%;
+}
+
+.item video {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
