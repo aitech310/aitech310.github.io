@@ -152,57 +152,189 @@
 
 <section>
   <div class="container">
-    <div id="results-grid" class="results-grid">
-      <div class="item item-steve">
-        <video poster="" id="steve1" autoplay controls muted loop playsinline>
-          <source src="./static/videos/plug.mp4" type="video/mp4">
-        </video>
+    <!-- 비디오 슬라이더 컨테이너 -->
+    <div class="video-slider-container">
+      <button class="slider-btn prev-btn" onclick="slideVideos(-1)">
+        <i class="fas fa-chevron-left"></i>
+      </button>
+      
+      <div class="videos-wrapper">
+        <div class="videos-container" id="videosContainer">
+          <!-- 첫 번째 페이지 (3x3 그리드) -->
+          <div class="video-page">
+            <div id="results-grid" class="results-grid">
+              <div class="item item-steve">
+                <video poster="" id="steve1" autoplay controls muted loop playsinline>
+                  <source src="./static/videos/plug.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-chair-tp">
+                <video poster="" id="chair-tp1" autoplay controls muted loop playsinline>
+                  <source src="./static/videos/monk.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-shiba">
+                <video poster="" id="shiba1" autoplay controls muted loop playsinline>
+                  <source src="./static/videos/spray.mp4" type="video/mp4">
+                </video>
+              </div>
+              <!-- 두 번째 줄 -->
+              <div class="item item-steve">
+                <video poster="" id="steve2" autoplay controls muted loop playsinline>
+                  <source src="./static/videos/plug.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-chair-tp">
+                <video poster="" id="chair-tp2" autoplay controls muted loop playsinline>
+                  <source src="./static/videos/monk.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-shiba">
+                <video poster="" id="shiba2" autoplay controls muted loop playsinline>
+                  <source src="./static/videos/spray.mp4" type="video/mp4">
+                </video>
+              </div>
+              <!-- 세 번째 줄 -->
+              <div class="item item-steve">
+                <video poster="" id="steve3" autoplay controls muted loop playsinline>
+                  <source src="./static/videos/plug.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-chair-tp">
+                <video poster="" id="chair-tp3" autoplay controls muted loop playsinline>
+                  <source src="./static/videos/monk.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-shiba">
+                <video poster="" id="shiba3" autoplay controls muted loop playsinline>
+                  <source src="./static/videos/spray.mp4" type="video/mp4">
+                </video>
+              </div>
+            </div>
+          </div>
+
+          <!-- 두 번째 페이지 (3x3 그리드) -->
+          <div class="video-page">
+            <div class="results-grid">
+              <div class="item item-steve">
+                <video poster="" id="steve4" autoplay controls muted loop playsinline>
+                  <source src="./static/videos/plug.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-chair-tp">
+                <video poster="" id="chair-tp4" autoplay controls muted loop playsinline>
+                  <source src="./static/videos/monk.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-shiba">
+                <video poster="" id="shiba4" autoplay controls muted loop playsinline>
+                  <source src="./static/videos/spray.mp4" type="video/mp4">
+                </video>
+              </div>
+              <!-- 두 번째 줄 -->
+              <div class="item item-steve">
+                <video poster="" id="steve5" autoplay controls muted loop playsinline>
+                  <source src="./static/videos/plug.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-chair-tp">
+                <video poster="" id="chair-tp5" autoplay controls muted loop playsinline>
+                  <source src="./static/videos/monk.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-shiba">
+                <video poster="" id="shiba5" autoplay controls muted loop playsinline>
+                  <source src="./static/videos/spray.mp4" type="video/mp4">
+                </video>
+              </div>
+              <!-- 세 번째 줄 -->
+              <div class="item item-steve">
+                <video poster="" id="steve6" autoplay controls muted loop playsinline>
+                  <source src="./static/videos/plug.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-chair-tp">
+                <video poster="" id="chair-tp6" autoplay controls muted loop playsinline>
+                  <source src="./static/videos/monk.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-shiba">
+                <video poster="" id="shiba6" autoplay controls muted loop playsinline>
+                  <source src="./static/videos/spray.mp4" type="video/mp4">
+                </video>
+              </div>
+            </div>
+          </div>
+
+          <!-- 세 번째 페이지 (3x3 그리드) -->
+          <div class="video-page">
+            <div class="results-grid">
+              <div class="item item-steve">
+                <video poster="" id="steve7" autoplay controls muted loop playsinline>
+                  <source src="./static/videos/plug.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-chair-tp">
+                <video poster="" id="chair-tp7" autoplay controls muted loop playsinline>
+                  <source src="./static/videos/monk.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-shiba">
+                <video poster="" id="shiba7" autoplay controls muted loop playsinline>
+                  <source src="./static/videos/spray.mp4" type="video/mp4">
+                </video>
+              </div>
+              <!-- 두 번째 줄 -->
+              <div class="item item-steve">
+                <video poster="" id="steve8" autoplay controls muted loop playsinline>
+                  <source src="./static/videos/plug.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-chair-tp">
+                <video poster="" id="chair-tp8" autoplay controls muted loop playsinline>
+                  <source src="./static/videos/monk.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-shiba">
+                <video poster="" id="shiba8" autoplay controls muted loop playsinline>
+                  <source src="./static/videos/spray.mp4" type="video/mp4">
+                </video>
+              </div>
+              <!-- 세 번째 줄 -->
+              <div class="item item-steve">
+                <video poster="" id="steve9" autoplay controls muted loop playsinline>
+                  <source src="./static/videos/plug.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-chair-tp">
+                <video poster="" id="chair-tp9" autoplay controls muted loop playsinline>
+                  <source src="./static/videos/monk.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-shiba">
+                <video poster="" id="shiba9" autoplay controls muted loop playsinline>
+                  <source src="./static/videos/spray.mp4" type="video/mp4">
+                </video>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="item item-chair-tp">
-        <video poster="" id="chair-tp1" autoplay controls muted loop playsinline>
-          <source src="./static/videos/monk.mp4" type="video/mp4">
-        </video>
-      </div>
-      <div class="item item-shiba">
-        <video poster="" id="shiba1" autoplay controls muted loop playsinline>
-          <source src="./static/videos/spray.mp4" type="video/mp4">
-        </video>
-      </div>
-      <!-- 두 번째 줄 -->
-      <div class="item item-steve">
-        <video poster="" id="steve2" autoplay controls muted loop playsinline>
-          <source src="./static/videos/plug.mp4" type="video/mp4">
-        </video>
-      </div>
-      <div class="item item-chair-tp">
-        <video poster="" id="chair-tp2" autoplay controls muted loop playsinline>
-          <source src="./static/videos/monk.mp4" type="video/mp4">
-        </video>
-      </div>
-      <div class="item item-shiba">
-        <video poster="" id="shiba2" autoplay controls muted loop playsinline>
-          <source src="./static/videos/spray.mp4" type="video/mp4">
-        </video>
-      </div>
-      <!-- 세 번째 줄 -->
-      <div class="item item-steve">
-        <video poster="" id="steve3" autoplay controls muted loop playsinline>
-          <source src="./static/videos/plug.mp4" type="video/mp4">
-        </video>
-      </div>
-      <div class="item item-chair-tp">
-        <video poster="" id="chair-tp3" autoplay controls muted loop playsinline>
-          <source src="./static/videos/monk.mp4" type="video/mp4">
-        </video>
-      </div>
-      <div class="item item-shiba">
-        <video poster="" id="shiba3" autoplay controls muted loop playsinline>
-          <source src="./static/videos/spray.mp4" type="video/mp4">
-        </video>
-      </div>
+      
+      <button class="slider-btn next-btn" onclick="slideVideos(1)">
+        <i class="fas fa-chevron-right"></i>
+      </button>
+    </div>
+
+    <!-- 페이지 인디케이터 -->
+    <div class="page-indicators">
+      <span class="indicator active" onclick="goToVideoPage(0)"></span>
+      <span class="indicator" onclick="goToVideoPage(1)"></span>
+      <span class="indicator" onclick="goToVideoPage(2)"></span>
     </div>
   </div>
 </section>
+
 
 
 
