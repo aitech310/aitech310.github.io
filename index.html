@@ -45,14 +45,14 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <video id="teaser" autoplay muted loop playsinline height="100%">
-        <source src="./static/videos/combine1.mp4"
-                type="video/mp4">
-      </video>
-      <video id="teaser" autoplay muted loop playsinline height="100%">
-        <source src="./static/videos/combine2.mp4"
-                type="video/mp4">
-      </video>
+      <div style="display: flex; gap: 1rem; justify-content: center; align-items: center;">
+        <video id="teaser1" autoplay muted loop playsinline style="width: 48%; height: auto;">
+          <source src="./static/videos/combine1.mp4" type="video/mp4">
+        </video>
+        <video id="teaser2" autoplay muted loop playsinline style="width: 48%; height: auto;">
+          <source src="./static/videos/combine2.mp4" type="video/mp4">
+        </video>
+      </div>
       <h2 class="subtitle has-text-centered">
         <span class="dnerf">Nerfies</span> turns selfie videos from your phone into
         free-viewpoint
@@ -61,6 +61,7 @@
     </div>
   </div>
 </section>
+
 
 <section class="section">
   <div class="container is-max-desktop">
